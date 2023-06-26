@@ -11,7 +11,7 @@ This project is a design and implementation of an order book subsystem.
    ```
 3. Build the project:
    ````
-   go build -ldflags="-s -w" -mod=vendor -o ramzinexTask.exe
+   go build -ldflags="-s -w" -mod=vendor -o ramzinexTask
    ```
 4. Ensure that MySQL is installed and working correctly.
 5. Run ZooKeeper and Kafka.
